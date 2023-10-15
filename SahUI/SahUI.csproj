@@ -1,0 +1,52 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>disable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resurse\CalA.png" />
+    <None Remove="Resurse\CalN.png" />
+    <None Remove="Resurse\CursorA.cur" />
+    <None Remove="Resurse\CursorN.cur" />
+    <None Remove="Resurse\icon.ico" />
+    <None Remove="Resurse\NebunA.png" />
+    <None Remove="Resurse\NebunN.png" />
+    <None Remove="Resurse\PionA.png" />
+    <None Remove="Resurse\PionN.png" />
+    <None Remove="Resurse\RegeA.png" />
+    <None Remove="Resurse\RegeN.png" />
+    <None Remove="Resurse\ReginaA.png" />
+    <None Remove="Resurse\ReginaN.png" />
+    <None Remove="Resurse\Tabla.png" />
+    <None Remove="Resurse\TuraA.png" />
+    <None Remove="Resurse\TuraN.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LogicaJoc\LogicaJoc.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resurse\NebunN.png" />
+    <Resource Include="Resurse\NebunA.png" />
+    <Resource Include="Resurse\Tabla.png" />
+    <Resource Include="Resurse\CursorN.cur" />
+    <Resource Include="Resurse\CursorA.cur" />
+    <Resource Include="Resurse\icon.ico" />
+    <Resource Include="Resurse\RegeN.png" />
+    <Resource Include="Resurse\RegeA.png" />
+    <Resource Include="Resurse\CalN.png" />
+    <Resource Include="Resurse\CalA.png" />
+    <Resource Include="Resurse\PionN.png" />
+    <Resource Include="Resurse\PionA.png" />
+    <Resource Include="Resurse\ReginaN.png" />
+    <Resource Include="Resurse\ReginaA.png" />
+    <Resource Include="Resurse\TuraN.png" />
+    <Resource Include="Resurse\TuraA.png" />
+  </ItemGroup>
+
+</Project>
